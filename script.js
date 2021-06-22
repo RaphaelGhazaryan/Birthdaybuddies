@@ -11,5 +11,5 @@ let bdbuddies = [
 let randombuddies = bdbuddies[Math.floor(Math.random() * bdbuddies.length)];
 
 button.onclick = function () {
-  buddy.innerHTML = `Congratulations ${inputfield}!! your Birthdaybuddy is ${randombuddies}`;
+  buddy.innerHTML = `Congratulations ${inputfield.value}!! your Birthdaybuddy is ${randombuddies}`;
 };
