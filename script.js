@@ -8,8 +8,14 @@ let bdbuddies = [
   "Annett Demmin",
   "Afshar Behjat",
 ];
-let randombuddies = bdbuddies[Math.floor(Math.random() * bdbuddies.length)];
 
 button.onclick = function () {
+  const filteredBirthdayBuddies = bdbuddies.filter(
+    (bdbuddy) => bdbuddy !== inputfield.value
+  );
+  let randombuddies =
+    filteredBirthdayBuddies[
+      Math.floor(Math.random() * filteredBirthdayBuddies.length)
+    ];
   buddy.innerHTML = `Congratulations ${inputfield.value}!! your Birthdaybuddy is ${randombuddies}`;
 };
