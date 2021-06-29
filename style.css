@@ -1,0 +1,50 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: linear-gradient(
+    323deg,
+    #02ffbe,
+    #ca0e0c,
+    #0c8eca,
+    #b5ca0c,
+    #a70cca
+  );
+  background-size: 1000% 1000%;
+
+  -webkit-animation: AnimationName 29s ease infinite;
+  -moz-animation: AnimationName 29s ease infinite;
+  animation: AnimationName 29s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 11% 0%;
+  }
+  50% {
+    background-position: 90% 100%;
+  }
+  100% {
+    background-position: 11% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 11% 0%;
+  }
+  50% {
+    background-position: 90% 100%;
+  }
+  100% {
+    background-position: 11% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 11% 0%;
+  }
+  50% {
+    background-position: 90% 100%;
+  }
+  100% {
+    background-position: 11% 0%;
+  }
+}
